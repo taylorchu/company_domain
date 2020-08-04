@@ -1,6 +1,6 @@
-class CreateCompanyDomain < ActiveRecord::Migration[6.0]
+class CreateCompanyDetail < ActiveRecord::Migration[6.0]
   def change
-    create_table :company_domains do |t|
+    create_table :company_details do |t|
       t.string :domain, null: false
       t.string :company_name, null: false
       t.integer :year_founded
